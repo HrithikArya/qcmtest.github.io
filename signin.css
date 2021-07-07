@@ -1,0 +1,141 @@
+input {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 8%;
+    font-size: 1rem;
+    padding: 20PX;
+    border: 1px groove rgb(50, 50, 218);
+}
+
+button {
+    width: 100%;
+    height: 6%;
+    font-size: 1em;
+    text-align: center;
+    color: white;
+    background-color: rgb(28, 120, 220);
+}
+h1 {
+    font-family: Calibri;
+    text-align: center;
+    padding-top: 5%;
+    
+}
+
+.input-items {
+    
+}
+
+
+.floatParent {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.sign-up {
+    padding: 50px;
+    text-align: center;
+    flex: 30%;
+
+}
+
+.image {
+    flex: 70%;
+}
+
+
+@media (max-width: 800px) {
+    .floatParent{
+        flex-direction: column;
+    }   
+}
+
+img {
+    width: 100%;
+
+}
+.line-text {
+    padding: 5% 0 5% 0;
+    display: flex;
+    flex-direction: row;
+    opacity: 0.2;
+}
+
+  
+.line-text:before,
+.line-text:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 2px solid #000;
+    margin: auto;
+}
+
+
+.background-pic{
+    width: 100%;
+    height: 100vh;
+    background: url(asset.jpg);
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 255, 0.7);
+}
+
+.gbuttonlink {
+    width: 100%;
+    background: white;
+    color:black;
+    border:none;
+    height: 2em;
+    border-radius:3%;
+}
+.gbutton {
+    box-shadow: 10px 25px 100px #777777;
+}
+
+.signin {
+    padding: 5%;
+    font-size: 1em;
+}
+
+.floatbox {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    margin: 30px;
+}
+
+.box1, .box2 {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+
+    top: 0;
+    left: 0;
+    background-color: blue;
+    z-index: 9;
+    transform: rotate(45deg);
+}
+
+.box2 {
+    margin: 30px;
+}
+
+
+
+color {
+    color: rgb(28, 137, 220);
+    color: rgb(46, 61,162);
+    color: rgb(1, 178, 255);
+    color: rgb(253, 227, 228);
+}
